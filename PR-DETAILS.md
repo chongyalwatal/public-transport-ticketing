@@ -1,4 +1,4 @@
-﻿PTT Coupon (Clarity v3)
+PTT Coupon (Clarity v3)
 
 Overview
 Adds a new independent coupon contract enabling each user to issue and redeem a one-time travel coupon. No cross-contract calls or traits. Uses explicit error constants and safe types.

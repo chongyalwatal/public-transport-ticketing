@@ -1,4 +1,4 @@
-﻿;; ptt-coupon.clar
+;; ptt-coupon.clar
 ;; Clarity v3, independent feature: self-issuance and redemption of a one-time coupon per user.
 
 ;; Error constants
