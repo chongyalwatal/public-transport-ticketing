@@ -1,12 +1,12 @@
-[project]
+﻿[project]
 name = "public-transport-ticketing"
 description = ""
 authors = []
 telemetry = true
 cache_dir = "./.cache"
 
-# [contracts.counter]
-# path = "contracts/counter.clar"
+[contracts.ptt-coupon]
+path = "contracts/ptt-coupon.clar"
 
 [repl.analysis]
 passes = ["check_checker"]
@@ -19,3 +19,6 @@ check_checker = { trusted_sender = false, trusted_caller = false, callee_filter 
 # warning, if it gets checked inside. This check will also propagate up to the
 # caller.
 # More informations: https://www.hiro.so/blog/new-safety-checks-in-clarinet
+
+clarity_version = 3
+
